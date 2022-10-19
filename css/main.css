@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+}
+
+ul , ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    vertical-align: middle;
+    
+}
+
+.continer{
+    width: 1390px;
+    margin: 0 auto;
+    padding:0 px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
+
+
+
+  /* HEADER */
+
+.frame{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    height: 45px;
+    
+   
+   
+
+   
+}
+
+.frame-list{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 394px;
+    height: 35px;
+   
+}
+
+
+.frame-list-link:hover{
+  
+}
+
+
+/* MAIN */
+
+.frame-images{
+    height: 1400px;
+    background-image: url("../images/grood.jpg" );
+    background-size:1390px 1800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+                                  
+.frame-text{
+    font-size: 150px;
+    font-style: normal;
+    font-family: 'Dancing Script';
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    
+}
+
+.box{
+    padding-left: 600px;
+    padding-top: 50px
+}
+
